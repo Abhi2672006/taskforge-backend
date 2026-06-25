@@ -1,0 +1,16 @@
+{
+  "name": "taskforge-backend",
+  "version": "1.0.0",
+  "description": "TaskForge backend server",
+  "main": "taskforge-server.js",
+  "scripts": {
+    "start": "node taskforge-server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "@supabase/supabase-js": "^2.39.0",
+    "axios": "^1.6.2"
+  }
+}
